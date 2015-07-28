@@ -2,7 +2,7 @@ options( digits = 16 )
 library( jsonlite )
 
 
-k = 1
+k = 176
 probs = seq( 0, 1, 0.01 )
 y = qchisq( probs, k )
 

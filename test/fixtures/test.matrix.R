@@ -1,7 +1,7 @@
 options( digits = 16 )
 library( jsonlite )
 
-k = 1
+k = 3
 probs = 0:24 / 25
 y = qchisq( probs, k )
 
